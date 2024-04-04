@@ -8,6 +8,10 @@ class Student
 public:
     int id;
     double gpa;
+    void display()
+    {
+        cout << " Id is = " << id << " Result is = " << gpa << endl;
+    }
 };
 
 int main()
@@ -16,13 +20,11 @@ int main()
 
     Alim.id = 101;
     Alim.gpa = 4.28;
-
-    cout << "Alim Result is = " << Alim.gpa << " Id is = " << Alim.id << endl;
+    Alim.display();
 
     Suparna.id = 102;
     Suparna.gpa = 4.82;
-
-    cout << "Suparna Result is = " << Suparna.gpa << " Id is = " << Suparna.id << endl;
+    Suparna.display();
 
     getchar();
 }

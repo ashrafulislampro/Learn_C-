@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    MyFirstClass ob1;
-    ob1.display();
+    MyFirstClass ob;
+    ob.display();
 
     return 0;
 }

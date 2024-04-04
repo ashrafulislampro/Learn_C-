@@ -6,6 +6,7 @@ class MyFirstClass
 {
 public:
     MyFirstClass();
+    ~MyFirstClass();
 
 protected:
 private:

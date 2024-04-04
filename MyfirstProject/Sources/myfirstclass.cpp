@@ -2,11 +2,16 @@
 #include "myfirstclass.h"
 using namespace std;
 
-// MyFirstClass::MyFirstClass()
-// {
+MyFirstClass::MyFirstClass()
+{
 
-//     cout << "Inside the constructor" << endl;
-// }
+    cout << "Inside the constructor" << endl;
+}
+
+MyFirstClass::~MyFirstClass()
+{
+    cout << "Destructor is called" << endl;
+}
 
 void MyFirstClass::display()
 {

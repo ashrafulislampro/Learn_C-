@@ -1,5 +1,6 @@
 {
   "files.associations": {
+    "*html": "html",
     "array": "cpp",
     "atomic": "cpp",
     "bit": "cpp",
@@ -43,6 +44,11 @@
     "ostream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "fstream": "cpp",
+    "iomanip": "cpp",
+    "sstream": "cpp"
   }
 }

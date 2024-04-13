@@ -9,6 +9,7 @@ class Enemy{
         void setAttackPower(int a){
             attackPower = a;
         }
+       virtual void attack(){};
 };
 
 class Ninja: public Enemy{
@@ -36,9 +37,10 @@ int main(){
     e1->setAttackPower(20);
     e2->setAttackPower(40);
 
-    n.attack();
-    m.attack();
-    
+    // n.attack();
+    // m.attack();
+    e1->attack();
+    e2->attack();
 
     return 0;
 }

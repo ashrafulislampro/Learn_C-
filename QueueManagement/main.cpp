@@ -61,6 +61,10 @@ class Queue {
 	
 }; 
 
+
+
+
+
 int main() { 
 	Queue q1; 
 	q1.add(42); q1.add(2); q1.add(8);  q1.add(1);

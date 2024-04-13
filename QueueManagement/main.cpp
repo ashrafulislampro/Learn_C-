@@ -38,19 +38,22 @@ class Queue {
 		cout << endl;
 	}
 	//your code goes here
+
 	Queue operator+(const Queue &obj) const {
 		Queue res;
        
         // Copy elements from the first queue
         for(int i = 0; i < this->size; i++){
-            
+            //  cout << i << " obj.size " << obj.size<< endl;
             res.add(this->queue[i]);
         }
-        cout << " obj.size " << obj.size<< endl;
+
+
+
         // Copy elements from the second queue
         for(int i = 0; i < obj.size; i++){
-            cout << i << " obj.size " << obj.size << res.add(obj.queue[i])<< endl;
-            // res.add(obj.queue[i]);
+            //  cout << i << " obj.size " << obj.size<< endl;
+            res.add(obj.queue[i]);
         }
 
 		return res;

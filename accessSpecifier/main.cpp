@@ -10,11 +10,21 @@ class Mother{
     private:
         int var = 0;
     protected:
-        int someVar;
+        int someVar = 0;
+};
+
+class Daughter:public Mother{
+    public:
+        void display(){
+           someVar = 50;
+           cout << "protected value = " << someVar << endl;
+        }
 };
 
 
-int main(){
 
+int main(){
+    Daughter obj;
+    obj.display();
     return 0;
 }
